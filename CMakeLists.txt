@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(um7)
 
-find_package(catkin REQUIRED COMPONENTS roscpp serial sensor_msgs message_generation)
+find_package(catkin REQUIRED COMPONENTS roscpp serial sensor_msgs message_generation tf)
 
 add_service_files(
   FILES
@@ -36,6 +36,10 @@ add_dependencies(um7_driver um7_generate_messages_cpp)
 
 install(TARGETS um7_driver
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+install(DIRECTORY launch/
+    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
 )
 
 #############
