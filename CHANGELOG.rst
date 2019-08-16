@@ -2,7 +2,14 @@
 Changelog for package um7
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.2 (2015-02-20)
-
-Initial release of um7 driver.  
+Forthcoming
 -----------
+* fix deps
+* Merge pull request `#1 <https://github.com/LCAS/um7/issues/1>`_ from MikHut/fix_enu_tf_lcas
+  Fix enu tf
+* add maintainer
+* install target for launch file
+* added launch file
+* fix enu tf error and add param for yaw offset
+* Fixed linter errors.
+* Contributors: Jaime Pulido Fentanes, Marc Hanheide, MikHut, Tony Baltovski
