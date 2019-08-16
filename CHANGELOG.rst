@@ -2,8 +2,8 @@
 Changelog for package um7
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.6 (2019-08-16)
+------------------
 * fix deps
 * Merge pull request `#1 <https://github.com/LCAS/um7/issues/1>`_ from MikHut/fix_enu_tf_lcas
   Fix enu tf
