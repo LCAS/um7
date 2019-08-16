@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(um7)
 
-find_package(catkin REQUIRED COMPONENTS roscpp serial sensor_msgs message_generation tf)
+find_package(catkin REQUIRED COMPONENTS roscpp serial sensor_msgs message_generation tf tf2_geometry_msgs geometry_msgs std_msgs sensor_msgs)
 
 add_service_files(
   FILES

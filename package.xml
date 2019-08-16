@@ -7,8 +7,7 @@
   </description>
 
   <maintainer email="mhutchinson@sagarobotics.com">Michael Hutchinson</maintainer>
-  <maintainer email="dgmiller@ncsu.edu">Daniel Miller</maintainer>
-  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>  
+  <maintainer email="marc@hanheide.net">Michael Hutchinson</maintainer>
   <author email="mpurvis@clearpathrobotics.com">Mike Purvis</author>
   <author email="rbirac@cox.net">Alex Brown</author>
   
@@ -22,11 +21,13 @@
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
   <depend>tf</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
 
   <build_depend>message_generation</build_depend>
 
   <exec_depend>message_runtime</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
 
   <test_depend>roslint</test_depend>
 </package>
